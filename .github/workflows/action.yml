@@ -12,11 +12,11 @@ jobs:
       fail-fast: true
       matrix:
         include:
-          #- username: ZJU_USERNAME #pengshiyi
-            #password: ZJU_PASSWORD
-            #dingtalk_token: DINGTALK_TOKEN
-            #pushplus_token: PUSHPLUS_TOKEN
-            #serverchan_key: SERVERCHAN_KEY
+          - username: ZJU_USERNAME #pengshiyi
+            password: ZJU_PASSWORD
+            dingtalk_token: DINGTALK_TOKEN
+            pushplus_token: PUSHPLUS_TOKEN
+            serverchan_key: SERVERCHAN_KEY
           - username: ZJU_USERNAME2 #fengzhe
             password: ZJU_PASSWORD2
             dingtalk_token: DINGTALK_TOKEN2
@@ -27,11 +27,11 @@ jobs:
             #dingtalk_token: DINGTALK_TOKEN3
             #pushplus_token: PUSHPLUS_TOKEN3
             #serverchan_key: SERVERCHAN_KEY3
-          #- username: ZJU_USERNAME4 #wutianxiang
-            #password: ZJU_PASSWORD4
-            #dingtalk_token: DINGTALK_TOKEN4
-            #pushplus_token: PUSHPLUS_TOKEN4
-            #serverchan_key: SERVERCHAN_KEY4
+          - username: ZJU_USERNAME4 #wutianxiang
+            password: ZJU_PASSWORD4
+            dingtalk_token: DINGTALK_TOKEN4
+            pushplus_token: PUSHPLUS_TOKEN4
+            serverchan_key: SERVERCHAN_KEY4
           #- username: ZJU_USERNAME5 #nihuwei
             #password: ZJU_PASSWORD5
             #dingtalk_token: DINGTALK_TOKEN5
